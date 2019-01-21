@@ -1,16 +1,16 @@
 #--------------------------------------------------------------------------------
 # 	Problem: 
 #   
-#   Implement the "paint fill" function that one might see on many image editing programs.
-#   That is, given a screen (represented by a two-dimensional array of colors), a point, and a new color,
-#   fill in the surrounding area until the color changes from the original color. 
+#   	Implement the "paint fill" function that one might see on many image editing programs.
+#   	That is, given a screen (represented by a two-dimensional array of colors), a point, and a new color,
+#   	fill in the surrounding area until the color changes from the original color. 
 #
 #	Assumption:
 #	-The region is 4 connected which means diagonally adjacent cells are not adjacent.
 #
 #	Solution:
 #	-Fill current cell then check if adjacent cell is the same as source color
-#   -Recursively apply to all cells
+#   	-Recursively apply to all cells
 #	-Base Case: current cell is nto the source color
 #
 #	Key Conept:
